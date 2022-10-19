@@ -92,6 +92,7 @@ img {
 .icon-header {
   margin-right: 10px;
   fill: var(--title-text-color);
+  transition: fill var(--transition-animation);
 }
 
 .site-nav .link-current {
@@ -372,7 +373,7 @@ img {
   justify-content: center;
   border-radius: 50%;
 
-  transition: var(--transition-animation-back-col);
+  transition: background var(--transition-animation);
 }
 
 .team-soc-icon {
